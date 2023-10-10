@@ -4,6 +4,8 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    
+      
 }
 header,nav{
     background-color:#FFF15C;
@@ -13,7 +15,8 @@ header,nav{
     flex-wrap: nowrap !important;
 }
 body .medios_de_pago{
-    background-color: #ebebeb
+    background-color: #ebebeb;
+    overflow-x: hidden;
 }
 .fondoblanco{
     background-color: aliceblue !;
@@ -44,3 +47,27 @@ width: 60% !important;
 a {
     text-decoration: none !important;
 }
+.cards-wrapper{
+    width: 15rem;
+    height: auto;
+}
+body{
+    overflow:scroll}
+
+
+#horizontalCarousel {
+margin-bottom: 20px;
+z-index: 1; 
+}
+
+.nivel{
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+}
+.puntos{
+    padding: 1rem;
+}
+.dropdown-menu,.nav-item{
+    background-color: #FFF15C;
+}   

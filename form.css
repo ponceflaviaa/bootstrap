@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    background-color:#FFF15C;
+    margin: 2rem;
+    padding: 5rem;
+    width: 70%;
+    height: auto
+    ;
+}
+section{
+    margin: 1rem;
+}
